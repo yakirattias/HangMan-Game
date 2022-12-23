@@ -1,0 +1,115 @@
+html, body {
+  background-color: #a8eb12;
+  height: 100%;
+  width: 100%;
+}
+
+header{
+  border: 3px solid black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  padding: 20px 0;
+  font-size: 15px;
+  text-align: center;
+  margin: 20px auto;
+  height: 80px;
+  width: 100%;
+  background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);
+  padding: 20px 0;
+}
+
+/*underscore_table-*/
+.underscore {
+  border: 3px solid black;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 50px;
+  text-align: center;
+  margin: 1px auto;
+  height: 70px;
+  width: 40%;
+}
+
+/*wrong_guesses_table-*/ 
+.wrongGuess {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border: 3px solid black;
+  font-size: 30px;
+  text-align: center;
+  margin: 5px auto;
+  height: 50px;
+  width: 60%;
+}
+
+
+h3 {
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+  margin: 15px auto;
+  }
+
+
+#container{
+  border: black dashed 5px;
+  margin: 5px auto;
+  height: 250px;
+  width: 30%;
+  text-align: center;
+}
+
+/*play_again_button-*/ 
+
+button{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  display:none;
+  background:black;
+  color:white;
+  border: solid 0.5px white;
+  cursor:pointer;
+  font-size:1.2em;
+  padding:10px 10px;
+  width:180px;
+  margin: auto;
+  position: relative;
+  outline: none;
+  justify-content: space-around;
+}
+.buttons{
+    text-align: center;
+}
+
+/*game_instructions-*/ 
+h4{
+  text-align: center;
+}
+
+/*hangman_character */ 
+
+canvas {
+  text-align: center;
+}
+
+
+/*countdown timer-*/ 
+
+p{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  font-size: 50px;
+}
+
+
+/*the countdown*/
+.countdown {
+  color:#004d7a;
+  height: 17vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/*the note sentence*/
+.NOTE{
+  color:black;
+  font-size: 13px;
+  
+}

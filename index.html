@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>HangMan</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+<body>  
+  <div class="container">
+     <header>
+       <h1>HangMan Game</h1>
+       <h2>Topic: Israel Cities</h2>
+       <h4>Guess the israeli city, If you fail to guess 9 times, you lose.<br>
+         <u><div class="NOTE">
+         note: The language of the game is English!
+         </div></u>
+       </h4>
+     </header>
+    <div class="countdown">
+    <p>00:00</p>
+    </div>
+    <div class="buttons">
+    <button id="reset">Play again</button>
+    </div>
+    <div class= "underscore"></div> 
+  <div id="container">
+  <canvas id="hangman" width="180" height="250"></canvas>
+  </div>
+    <h3> Wrong Guess: </h3>
+    <div class= "wrongGuess"> </div> 
+  </div>
+</body>
+  
+</html>
+<script src="script.js"></script>
