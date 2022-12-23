@@ -9,11 +9,11 @@ Instructions:
 3. Enter the js file.
 4. Enter the HTML file.
 
-*You should get the website designed. In case that it doesn’t work, try to exit and click again. if it still dosent work, you can access the game trough the reiplit: 
+*You should get the website designed. In case that it doesn’t work, try to exit and click again. if it still dosent work, you can access the game trough replit: 
 https://replit.com/@yakirattias/HangGameV1#index.html
 
 game:
-the main goal is the guess the random city that have been chosen randomly every single game, by guessing the letters of the word, step by step.
+the main goal is to guess the random city that have been chosen randomly every single game, by guessing the letters of the word, step by step.
 
 
 you can read more about the game here:
